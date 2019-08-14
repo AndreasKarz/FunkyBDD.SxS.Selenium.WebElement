@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>FunkyBDD.SxS.Selenium.WebElement</AssemblyName>
+    <RootNamespace>FunkyBDD.SxS.Selenium.WebElement</RootNamespace>
+    <IsPackable>true</IsPackable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>FunkyBDD.SxS.Selenium.WebElement</PackageId>
+    <Description>Extensions for the Selenium IWebElement. Integrates properties and methods that are always needed. Supports the POM and APOM principles.</Description>
+    <Company>Swiss Life AG</Company>
+    <Authors>Andreas Karz</Authors>
+    <RepositoryType>GIT</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+  </ItemGroup>
+
+</Project>
