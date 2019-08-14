@@ -37,12 +37,12 @@ namespace FunkyBDD.SxS.Selenium.WebElement
         public string BrowserName => ((RemoteWebDriver)Driver).Capabilities["browserName"].ToString();
 
         /// <summary>
-        ///     The with of the label in pixel
+        ///     The with of the element in pixel
         /// </summary>
         public int Width => Component.Size.Width;
 
         /// <summary>
-        ///     The height of the label in pixel
+        ///     The height of the element in pixel
         /// </summary>
         public int Height => Component.Size.Height;
 

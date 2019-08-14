@@ -14,6 +14,12 @@
     <PackageIconUrl>https://raw.githubusercontent.com/AndreasKarz/FunkyBDD.SxS.Selenium.WebElement/master/icon.png</PackageIconUrl>
     <PackageProjectUrl>https://raw.githubusercontent.com/AndreasKarz/FunkyBDD.SxS.Selenium.WebElement</PackageProjectUrl>
     <RepositoryUrl>https://raw.githubusercontent.com/AndreasKarz/FunkyBDD.SxS.Selenium.WebElement</RepositoryUrl>
+    <Copyright>Swiss Life AG</Copyright>
+    <PackageTitle>DefaultProps extension for IWebElement</PackageTitle>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>selenium iwebelement bdd pom apom testing extension automated sxs</PackageTags>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageReleaseNotes>Init</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
