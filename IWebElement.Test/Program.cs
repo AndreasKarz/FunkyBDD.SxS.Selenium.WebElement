@@ -4,11 +4,11 @@ using System;
 
 namespace FunkyBDD.SxS.Selenium.WebElement.Test
 {
-    class Program
+    internal static class Program
     {
         public static IWebDriver Driver;
 
-        static void Main(string[] args)
+        static void Main()
         {
             #region init browser
                 var firefoxOptions = new FirefoxOptions();
@@ -37,7 +37,8 @@ namespace FunkyBDD.SxS.Selenium.WebElement.Test
                 Console.WriteLine(labelToScroll.Text);
 
             /* Test ScrollTo() */
-                if (labelToScroll != null) {
+                if (labelToScroll != null)
+                {
                     labelToScroll.ScrollTo();
                     Console.WriteLine("Scrolled to this label");
                 }
